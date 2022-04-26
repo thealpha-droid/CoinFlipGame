@@ -18,3 +18,5 @@ Web3 Solidity Challenge: Coin Flip Task assignment
         4) Checked ongoingBet list is empty and completeBet list contains the settle bets.
         5) Repeated the process to ensure one can bet again after his bet is settled.
         6) Kept checking read values at every stage and confirmed only new users get 100 free points.
+        
+Thankyou for this great assignment. Had fun completing it.
