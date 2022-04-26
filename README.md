@@ -6,9 +6,9 @@ Web3 Solidity Challenge: Coin Flip Task assignment
 
 
     IMPORTANT NOTES:
-    
-
-
+       1) VERY IMP: I was not able to enter false boolean value in the Harmony Blockchain Explorer whereas it was working fine when I interacted through Remix.I'm guessing it is a bug/issue in the Harmony explorer bool type input box. So use Remix or some other way instead of Harmony to interact with the the contract.
+       2)My transactions for testing are available on earlier contracts not this one as I deployed a fresh contract while uploading to github.
+       
 
     TESTING:
 
