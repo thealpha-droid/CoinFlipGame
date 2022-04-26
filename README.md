@@ -2,6 +2,8 @@
 Web3 Solidity Challenge: Coin Flip Task assignment 
 
 
+Deployed Contract Address:
+
 
 IMPORTANT NOTES:
 
@@ -14,4 +16,4 @@ TESTING:
 3) Called RewardBet function to ensure everyone got the correct balance updates after bet settlement.
 4) Checked ongoingBet list is empty and completeBet list contains the settle bets.
 5) Repeated the process to ensure one can bet again after his bet is settled.
-6) Kept checking read values at every stage.
+6) Kept checking read values at every stage and confirmed only new users get 100 free points.
