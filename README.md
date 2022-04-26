@@ -1,7 +1,6 @@
 # CoinFlipGame
 Web3 Solidity Challenge: Coin Flip Task assignment 
 
-
     Deployed Contract Address:0xe5836b0cac9AC7faDac7903B8822D43CbC410511
              Harmony Address: one1ukpkkr9vntrl4kk8jqacsgk58j7yzpg3ha8d3d
 
