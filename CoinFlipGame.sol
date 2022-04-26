@@ -49,21 +49,10 @@ contract CoinFlipGame {
         }
     }
 
-    //function to convert bytes32 to integer
-    function asciiToInteger(bytes32 x) public pure returns (uint256) {
-        uint256 y;
-        for (uint256 i = 0; i < 32; i++) {
-            uint256 c = (uint256(x) >> (i * 8)) & 0xff;
-            if (48 <= c && c <= 57) y += (c - 48) * 10**i;
-            else break;
-        }
-        return y;
-    }
-
     function rewardBets() external {
         bytes32 res = vrf(); //calling vrf function to generate random result of coinflip in bytes32 type
         bool betResult;
-        if ((asciiToInteger(res)) % 2 == 0)
+        if ((uint256(res)) % 2 == 0)
             betResult = false; //converting bytes32 to bool
         else betResult = true;
 
